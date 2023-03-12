@@ -1,0 +1,43 @@
+.Savollar {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.accordion__list {
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-top: 63px;
+    margin-bottom: 100px;
+
+}
+
+.bargback {
+    position: absolute;
+    top: -100px;
+    right: -300px;
+    width: 692px;
+    height: 667px;
+    background-image: url(../../assets/images/bargback.png);
+    opacity: 0.05;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.Savollar__top__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #282938;
+    margin-bottom: 13px;
+}
+
+.Savollar__top__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #53B175;
+    opacity: 0.87;
+    margin-bottom: 46px;
+}

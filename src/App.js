@@ -1,25 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Autintification from "./Autintification/Autintification";
+import UnAutintification from "./UnAutintification/UnAutintification";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const token = JSON.parse(window.localStorage.getItem("token"));
+  if (token && token !== "") {
+    return <Autintification />;
+  } else {
+    return <UnAutintification />;
+  }
 }
 
 export default App;

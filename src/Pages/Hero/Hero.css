@@ -1,0 +1,65 @@
+.Hero {
+    background-color: #B7DEC6;
+}
+
+.Hero .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.Hero__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: center;
+    color: #000000;
+}
+
+.Hero__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 442px;
+    margin: auto;
+    text-align: center;
+    color: #000000;
+}
+
+.mobililova {
+    color: #53B175;
+    text-decoration: underline;
+}
+
+.hero__wrapper{
+    position: relative;
+}
+
+.hero__card {
+    position: absolute;
+    top: 37%;
+    left: 6%;
+    width: 185px;
+    height: 125px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 60px rgba(22, 22, 22, 0.1);
+    border-radius: 15px;
+}
+.hero__card2{
+    position: absolute;
+    top: 57%;
+    left: 76%;
+}
+.hero__card-title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.hero__card-text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 16px;
+    color: #C3C3C3;
+}

@@ -1,0 +1,23 @@
+.Footerbot {
+    background: #FFFFFF;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.footerbot__text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.footerbot__list-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #282938;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 28px;
+}

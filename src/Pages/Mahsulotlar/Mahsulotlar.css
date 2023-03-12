@@ -1,0 +1,88 @@
+.Mahsulotlar__heading {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282828;
+    width: 287px;
+    margin-bottom: 64px;
+}
+
+.Mahsulotlar__item {
+    width: 240px;
+    height: 378px;
+    border: 1px solid #E2E2E2;
+    border-radius: 18px;
+    padding: 13px;
+}
+
+.Mahsulotlar__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+    color: #181725;
+    margin-bottom: 4px;
+}
+
+.Mahsulotlar__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: #7C7C7C;
+    margin-bottom: 16px;
+}
+
+.narx__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.narx__delete {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: line-through;
+    color: #808080;
+}
+
+.narx {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #53B175;
+}
+
+.buttonplus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #53B175;
+    border-radius: 17px;
+    color: #ffffff;
+    width: 46px;
+    height: 46px;
+    margin-bottom: 16px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+.tafsilotlar {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #BDBDBD;
+    opacity: 0.4;
+}
+
+.heart__wrapper {
+    width: 1.5rem;
+    position: absolute;
+    top: 15px;
+    right: 13px;
+}

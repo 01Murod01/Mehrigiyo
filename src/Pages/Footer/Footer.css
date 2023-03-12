@@ -1,0 +1,53 @@
+.Footer {
+    background: #282828;
+    padding-top: 39px;
+}
+
+.footer__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.footerdownload {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #F4F5F7;
+}
+
+.footerhuquqiy {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #F4F5F7;
+}
+
+.Footer__card {
+    width: 553px;
+    height: 95px;
+    border-top: 20px;
+    background: #427A56;
+    border-radius: 25px 25px 0px 0px;
+    padding: 22px 84px 17px 37px;
+}
+
+.Footer__card-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 8px;
+}
+
+.Footer__card-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}

@@ -1,0 +1,20 @@
+.qulay__list-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1D1D1F;
+}
+
+.qulay__list-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #1D1D1F;
+    opacity: 0.75;
+}
+
+.uzunline {
+    width: 1110px;
+    height: 1px;
+    background: linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
+}

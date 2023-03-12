@@ -1,0 +1,34 @@
+.TopNavbar {
+    width: 100%;
+    background-color: #DBEFE3;
+}
+
+.TopNavbar .container {
+    height: 40px;
+}
+
+.TopNavbar__list-item {
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #505050;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.TopNavbar__right-item {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 16px;
+    color: #000000;
+}
+
+.verticalline {
+    width: 1px;
+    height: 20px;
+    background-color: rgba(176, 183, 195, 0.4);
+    margin-right: 16px;
+}
